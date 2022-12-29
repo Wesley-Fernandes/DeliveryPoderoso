@@ -1,0 +1,31 @@
+.full
+    height: calc(100vh - 80px)
+
+
+.modal-width
+    width: 1080px
+    @media screen and (max-width: 1079px)
+        width: 100%
+
+.modal-description
+    @media screen and (max-width: 1079px)
+        flex-direction: column
+
+    .ProductOptions
+        width: 800px
+        height: 300px
+        overflow-y: scroll
+
+        h4
+            width: 100%
+            padding: 0.2rem
+
+        p
+            font-size: 0.9rem
+            opacity: 0.8
+        @media screen and (max-width: 1079px)
+            width: 100%
+            p
+                font-size: 0.7rem
+.ProductQuantity
+    flex: 1

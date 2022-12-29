@@ -1,0 +1,60 @@
+.ProductItem
+    display: flex
+    width: 45%
+    height: 250px
+    overflow: hidden
+    border: 1px solid #7171712f
+    border-radius: 5px
+    padding: 0.3rem
+    cursor: pointer
+    &:hover
+        border: 1px solid #71717188
+    @media screen and (max-width: 1280px)
+        height: fit-content
+        width: 100%
+
+    
+
+    .ProductInfo
+        display: flex
+        flex: 1
+        flex-direction: column
+        h3
+            height: 40px
+            text-indent: 10px
+            font-size: 1.3rem
+            color: #000000b9
+            @media screen and (max-width: 1280px)
+                font-size: 1.2rem
+                text-indent: 0
+                padding-left: 10px
+        p
+
+            padding-left: 10px
+            flex: 1
+            font-size: 0.9rem
+            color: #00000099
+        span
+            justify-self: flex-end
+            display: flex
+            align-items: flex-end
+            height: 40px
+            font-size: 1.2rem
+            color: #000000c7
+            padding-left: 10px
+            width: fit-content
+            @media screen and (max-width: 1280px)
+                font-size: 1.0rem
+
+
+    .ProductImage
+        display: flex
+        align-items: center
+        justify-content: center
+        width: 300px
+        @media screen and (max-width: 1280px)
+            width: fit-content
+        img
+            height: 150px
+            @media screen and (max-width: 1280px)
+                height: 100px
