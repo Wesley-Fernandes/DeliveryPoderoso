@@ -77,6 +77,10 @@ export const Register:React.FC = ():JSX.Element => {
         <Button label='Já tenho uma conta'
         key="register" style={Styles.button}
         onClick={()=>{navigate("/")}}/>
+
+        <Button label='Ver dashboard'
+        key="dashboard" style={Styles.button}
+        onClick={()=>{navigate("/dashboard")}}/>
       </div>
     </div>
   )
